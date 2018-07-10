@@ -1,0 +1,29 @@
+.grid{
+   
+
+&__skew-light-one{
+    -webkit-clip-path:polygon(0 0, 0% 100%, 100% 100%, 0% 0%);
+    clip-path: polygon(0 0, 0% 100%, 100% 100%, 0% 0%);
+    background-color: $color-lgreen-one;
+    grid-row: 3/5;
+    grid-column: 1/3;
+
+    }
+
+}
+.grid{
+    &__skew-dark-one-box{
+        background-color:$color-dgreen-two;
+        grid-row: 1/5;
+        grid-column: 1/3;
+    }
+    &__skew-dark-two{
+        z-index: -10;
+        -webkit-clip-path:polygon(0 0, 100% 0%, 50% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0%, 50% 100%, 0% 100%);
+        background-color:$color-dgreen-two;
+        grid-row: 1/5;
+        grid-column: 1/5;
+
+    }
+}
