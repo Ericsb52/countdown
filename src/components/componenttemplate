@@ -1,0 +1,14 @@
+import React, { Component } from 'react';
+
+class (!!!Compname!!!) extends Component{
+    render(){
+        return (
+            <div>
+                build Component hear
+            </div>
+        )
+    }
+
+}
+
+export default (!!!Compname!!!);

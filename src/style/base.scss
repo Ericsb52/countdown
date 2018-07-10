@@ -9,4 +9,17 @@ $color-dgreen-two:rgb(24, 196, 24);
     display: grid;
     grid-template-rows: repeat(4, minmax(200px, 1fr)) ;
     grid-template-columns: repeat(11, minmax(150px, 1fr)) ;
+    
+    &__title{
+
+        justify-self: center;
+        font-size: 18px;
+        color:white;
+        font-family: 'Montserrat';
+        font-weight: 300;
+        line-height: 22px;
+        padding: 55px 75px; 
+        grid-row: 1/2;
+        grid-column: 1/4;
+    }
 }
