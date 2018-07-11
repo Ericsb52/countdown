@@ -1,7 +1,11 @@
 $color-lgreen-one:rgb(119, 230, 119);
 $color-dgreen-two:rgb(24, 196, 24);
 $color-grey-one: #444;
+$color-grey-two:#e6e6e6;
 $color-yellow-one: #f7d754;
+
+$font-robot: "Roboto condensed";
+$font-mont: "Montserrat";
 
 
 .grid{
@@ -18,11 +22,26 @@ $color-yellow-one: #f7d754;
         justify-self: center;
         font-size: 18px;
         color:white;
-        font-family: 'Montserrat';
+        font-family: $font-mont;
         font-weight: 300;
         line-height: 22px;
         padding: 55px 75px; 
         grid-row: 1/2;
         grid-column: 1/4;
+    }
+
+    &__remaining{
+        grid-row:4/5;
+        grid-column: 1/-1;
+        text-align: center;
+        margin-top: 33px;
+
+        color: $color-grey-one;
+        font-family: $font-mont;
+        font-size: 22px;
+        font-weight: 300;
+
+
+
     }
 }
