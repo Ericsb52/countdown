@@ -1,6 +1,6 @@
 .clock{
     grid-row:3/4;
-    grid-column: 2/11;
+    grid-column: 2/10;
     align-self: end;
 
     background-color: $color-grey-one;
@@ -35,7 +35,7 @@
         font-size: 22px;
         line-height: 25px;
         color: $color-yellow-one;
-        font-family:  "Robotoondensed";
+        font-family:  $font-robot;
     }
     &__amount{
         text-align: left;
@@ -43,7 +43,7 @@
         font-weight: bold;
         line-height: 115px;
         color: white;
-        font-family: "Roboto Condensed";
+        font-family:  $font-robot;
 
     }
 }

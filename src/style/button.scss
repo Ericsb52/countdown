@@ -1,6 +1,6 @@
 .button{
     grid-row: 3/4;
-    grid-column: 5/10;
+    grid-column: 5/9;
     justify-self: center;
 
     height: 50px;
@@ -12,7 +12,7 @@
     -webkit-clip-path:polygon (7% 0,100% 0,93% 100%, 0% 100%);
 
     color: white;
-    font-family: 'Montserrate';
+    font-family: $font-mont;
     font-size: 18px;
     line-height: 22px;
 
